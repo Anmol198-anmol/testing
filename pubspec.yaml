@@ -1,0 +1,36 @@
+name: connect_app
+description: A Flutter app with Connect login page
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add custom fonts if needed
+  # fonts:
+  #   - family: Manrope
+  #     fonts:
+  #       - asset: fonts/Manrope-Regular.ttf
+  #       - asset: fonts/Manrope-Medium.ttf
+  #         weight: 500
+  #       - asset: fonts/Manrope-Bold.ttf
+  #         weight: 700
+  #       - asset: fonts/Manrope-ExtraBold.ttf
+  #         weight: 800
+
